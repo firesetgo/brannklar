@@ -4,75 +4,49 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
       {/* Header */}
-      <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-  <a href="#" className="flex items-center gap-2">
-  <Image
-    src="/logo.png"
-    alt="Brannklar logo"
-    width={200}
-    height={200}
-    className="h-10 w-auto"
-    priority
-  />
-
-  <span className="text-lg font-bold text-red-600">
-    Brannklar
-  </span>
-</a>
+      <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6 sm:py-6">
+        <a href="#" className="flex items-center gap-3">
+          <Image
+            src="/logo.png"
+            alt="Brannklar logo"
+            width={64}
+            height={64}
+            className="h-12 w-auto sm:h-14"
+            priority
+          />
+          <span className="text-2xl font-bold text-red-600 sm:text-3xl">
+            Brannklar
+          </span>
+        </a>
 
         <nav className="hidden items-center gap-8 md:flex">
+          <a href="#hvordan" className="text-sm font-medium hover:text-slate-900">
+            Slik fungerer det
+          </a>
           <a
-            href="#hvordan"
-            className="text-sm font-medium text-slate-700 hover:text-slate-900"
-          <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6 sm:py-6">
-  <a href="#" className="flex items-center gap-3 shrink-0">
-    <Image
-      src="/logo.png"
-      alt="Brannklar logo"
-      width={64}
-      height={64}
-      className="h-12 w-auto sm:h-14"
-      priority
-    />
-
-    <span className="text-2xl font-bold text-red-600 sm:text-3xl">
-      Brannklar
-    </span>
-  </a>
-
-  <nav className="hidden items-center gap-8 md:flex">
-    <a
-      href="#hvordan"
-      className="text-sm font-medium text-slate-700 hover:text-slate-900"
-    >
-      Slik fungerer det
-    </a>
-
-    <a
-      href="#kontakt"
-      className="rounded-2xl border border-slate-300 px-5 py-3 text-sm font-medium hover:bg-slate-50"
-    >
-      Be om demo
-    </a>
-
-    <button className="rounded-2xl border border-slate-200 px-4 py-3 text-sm">
-      🇳🇴 NO
-    </button>
-  </nav>
-</header>
+            href="#kontakt"
+            className="rounded-2xl border px-5 py-3 text-sm font-medium hover:bg-slate-50"
+          >
+            Be om demo
+          </a>
+        </nav>
+      </header>
 
       {/* Hero */}
-      <section className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
-        <div className="mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl font-semibold sm:text-6xl">
-            Enkel og digital egenkontroll av <br />
-            brann- og elsikkerhet for borettslag
+      <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <h1 className="text-3xl font-semibold sm:text-5xl leading-tight">
+            Enkel og riktig egenkontroll av brann- og elsikkerhet
           </h1>
 
-          <p className="mt-8 text-lg text-slate-600">
-            Brannklar hjelper borettslag med å sende ut egenkontroll til
-            beboere, samle dokumentasjon og få oversikt over hvilke enheter som
-            har svart.
+          <p className="mt-6 text-lg text-slate-600">
+            Brannklar gjør det enkelt for borettslag å gjennomføre egenkontroll
+            – og sikrer at den er oppdatert i tråd med dagens anbefalinger.
+          </p>
+
+          <p className="mt-4 text-slate-600">
+            Utviklet for å gi styret trygg dokumentasjon, uten behov for
+            autorisert kontroll.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
@@ -85,7 +59,7 @@ export default function HomePage() {
 
             <a
               href="#hvordan"
-              className="rounded-2xl border border-slate-300 px-8 py-4 font-semibold hover:bg-slate-50"
+              className="rounded-2xl border px-8 py-4 font-semibold hover:bg-slate-50"
             >
               Slik fungerer det
             </a>
@@ -94,37 +68,37 @@ export default function HomePage() {
       </section>
 
       {/* Hvordan */}
-      <section id="hvordan" className="bg-slate-50 py-16">
+      <section id="hvordan" className="bg-slate-50 py-12 sm:py-16">
         <div className="mx-auto max-w-6xl px-6">
-          <h2 className="text-center text-3xl font-semibold">
+          <h2 className="text-center text-2xl font-semibold sm:text-3xl">
             Slik fungerer det
           </h2>
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-xl font-semibold">
-                <span className="text-red-600">1.</span> Beboer får lenke
+              <h3 className="text-lg font-semibold">
+                <span className="text-red-600">1.</span> Beboer gjennomfører
               </h3>
-              <p className="mt-4 text-slate-600">
-                Beboeren mottar en enkel digital egenkontroll på mobil eller PC.
+              <p className="mt-3 text-slate-600">
+                Egenkontrollen gjennomføres enkelt på mobil eller PC.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg font-semibold">
                 <span className="text-red-600">2.</span> Styret får oversikt
               </h3>
-              <p className="mt-4 text-slate-600">
-                Styret ser hvilke enheter som har svart, og hvilke som mangler.
+              <p className="mt-3 text-slate-600">
+                Full oversikt over hvilke enheter som har gjennomført.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-xl font-semibold">
-                <span className="text-red-600">3.</span> Dokumentasjon samles
+              <h3 className="text-lg font-semibold">
+                <span className="text-red-600">3.</span> Dokumentasjon lagres
               </h3>
-              <p className="mt-4 text-slate-600">
-                All dokumentasjon ligger samlet og klart til oppfølging.
+              <p className="mt-3 text-slate-600">
+                Dokumentasjonen samles og er klar ved behov.
               </p>
             </div>
           </div>
@@ -132,28 +106,35 @@ export default function HomePage() {
       </section>
 
       {/* Hvorfor */}
-      <section className="py-16">
+      <section className="py-12 sm:py-16">
         <div className="mx-auto max-w-6xl px-6">
-          <h2 className="text-center text-3xl font-semibold">
+          <h2 className="text-center text-2xl font-semibold sm:text-3xl">
             Hvorfor Brannklar
           </h2>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-lg font-semibold">
                 Mindre manuelt arbeid
               </h3>
-              <p className="mt-4 text-slate-600">
-                Borettslaget slipper manuelle lister og spredt dokumentasjon.
+              <p className="mt-3 text-slate-600">
+                Mindre behov for oppfølging, purring og manuelle lister.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-xl font-semibold">
-                Bedre oversikt
+              <h3 className="text-lg font-semibold">Bedre oversikt</h3>
+              <p className="mt-3 text-slate-600">
+                Én samlet løsning for gjennomføring og dokumentasjon.
+              </p>
+            </div>
+
+            <div className="rounded-3xl bg-white p-6 shadow-sm">
+              <h3 className="text-lg font-semibold">
+                Effektiv gjennomføring
               </h3>
-              <p className="mt-4 text-slate-600">
-                Én enkel løsning for utsendelse og dokumentert egenkontroll.
+              <p className="mt-3 text-slate-600">
+                Gjennomfør egenkontrollen på en enkel måte, med mindre ressursbruk.
               </p>
             </div>
           </div>
@@ -161,13 +142,12 @@ export default function HomePage() {
       </section>
 
       {/* Kontakt */}
-      <section id="kontakt" className="bg-slate-50 py-16">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <h2 className="text-3xl font-semibold">Kontakt</h2>
+      <section id="kontakt" className="bg-slate-50 py-12 sm:py-16">
+        <div className="mx-auto max-w-3xl px-6 text-center">
+          <h2 className="text-2xl font-semibold sm:text-3xl">Kontakt</h2>
 
           <p className="mt-6 text-lg text-slate-700">
-            Vil du teste Brannklar i ditt borettslag eller høre mer om
-            løsningen?
+            Vil du teste Brannklar i ditt borettslag eller høre mer om løsningen?
           </p>
 
           <a
