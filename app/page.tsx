@@ -144,7 +144,7 @@ export default function HomePage() {
 <section className="bg-slate-50 py-12 sm:py-16">
   <div className="mx-auto max-w-4xl px-6 text-center">
     <h2 className="text-2xl font-semibold sm:text-3xl">
-      Et godt supplement til autorisert brannvernkontroll
+      Et godt supplement til autorisert kontroll
     </h2>
 
     <p className="mt-6 text-lg text-slate-600">
