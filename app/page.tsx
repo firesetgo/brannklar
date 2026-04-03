@@ -11,7 +11,7 @@ export default function HomePage() {
             alt="Brannklar logo"
             width={300}
             height={300}
-            className="h-20 w-auto sm:h-14"
+            className="h-20 w-auto sm:h-20"
             priority
           />
           <span className="text-2xl font-bold text-red-600 sm:text-3xl">
@@ -51,16 +51,6 @@ export default function HomePage() {
           <p className="mt-4 text-slate-600">
             Utviklet for å gi styret trygg dokumentasjon der det ikke kreves
             autorisert firma.
-          </p>
-
-          <p className="mt-2 text-sm text-slate-500">
-            Kan brukes årlig som supplement til periodisk kontroll utført av
-            autorisert firma.
-          </p>
-
-          <p className="mt-4 text-slate-600">
-            Vi kan også sende batteri direkte til beboerne – samtidig som
-            egenkontrollen gjennomføres.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
@@ -118,10 +108,10 @@ export default function HomePage() {
 
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">
-                <span className="text-red-600">3.</span> Dokumentasjon lagres
+                <span className="text-red-600">3.</span> Dokumentasjon og informasjon
               </h3>
               <p className="mt-3 text-slate-600">
-                Dokumentasjonen samles og er klar ved behov.
+                Beboerne blir oppdatert på sin brannsikkerhet og dokumentasjonen er tilgjengelig ved behov.
               </p>
             </div>
           </div>
@@ -137,9 +127,9 @@ export default function HomePage() {
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
-              <h3 className="text-lg font-semibold">Mindre manuelt arbeid</h3>
+              <h3 className="text-lg font-semibold">Reduser manuelt arbeid</h3>
               <p className="mt-3 text-slate-600">
-                Mindre behov for oppfølging, purring og manuelle lister.
+                Mindre behov for oppfølging, mer tid til andre oppgaver.
               </p>
             </div>
 
@@ -155,30 +145,10 @@ export default function HomePage() {
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">Effektiv gjennomføring</h3>
               <p className="mt-3 text-slate-600">
-                Gjennomfør egenkontrollen på en enkel måte, med mindre
-                ressursbruk.
+                Kutt kostnader og oppretthold godt brannvern.
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Batteri */}
-      <section className="bg-white py-12 sm:py-16">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <h2 className="text-2xl font-semibold sm:text-3xl">
-            Batteri og egenkontroll – i én løsning
-          </h2>
-
-          <p className="mt-6 text-lg text-slate-600">
-            Brannklar kan sende batteri direkte til beboerne. Samtidig
-            gjennomfører de egenkontrollen.
-          </p>
-
-          <p className="mt-4 text-slate-600">
-            Dette gjør det enklere å sikre at batterier faktisk blir byttet –
-            og at egenkontrollen blir gjennomført.
-          </p>
         </div>
       </section>
 
