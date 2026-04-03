@@ -153,7 +153,7 @@ export default function HomePage() {
           <a
             href="mailto:kontakt@brannklar.no"
             className="mt-4 inline-block text-xl font-semibold text-red-600 hover:underline"
-            >
+          >
             kontakt@brannklar.no
           </a>
         </div>
