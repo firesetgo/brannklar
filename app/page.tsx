@@ -64,17 +64,14 @@ export default function HomePage() {
       </a>
     </div>
 
-    <p className="mt-6 text-sm text-slate-600">
-      <a
-        href="/egenkontroll-brannvern-borettslag"
-        className="text-red-600 hover:underline"
-      >
-        Les mer om egenkontroll i borettslag
-      </a>
-    </p>
-  </div>
-</section>
 
+<p className="mt-6 text-sm text-slate-600">
+  <a
+    href="/egenkontroll-brannvern-borettslag"
+    className="text-red-600 hover:underline"
+  >
+    Les mer om egenkontroll i borettslag
+  </a>
 </p>
 
       {/* Hvordan */}
