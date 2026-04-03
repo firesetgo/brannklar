@@ -45,8 +45,8 @@ export default function HomePage() {
           </p>
 
           <p className="mt-4 text-slate-600">
-            Utviklet for å gi styret trygg dokumentasjon, uten behov for
-            autorisert kontroll.
+            Utviklet for å gi styret trygg dokumentasjon, når det ikke kreves
+            autorisert firma.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
@@ -95,7 +95,7 @@ export default function HomePage() {
 
             <div className="rounded-3xl bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold">
-                <span className="text-red-600">3.</span> Dokumentasjon lagres
+                <span className="text-red-600">3.</span> Godt brannvern!
               </h3>
               <p className="mt-3 text-slate-600">
                 Dokumentasjonen samles og er klar ved behov.
@@ -134,7 +134,7 @@ export default function HomePage() {
                 Effektiv gjennomføring
               </h3>
               <p className="mt-3 text-slate-600">
-                Gjennomfør egenkontrollen på en enkel måte, med mindre ressursbruk.
+                Gjennomført enkelt, med mindre ressursbruk.
               </p>
             </div>
           </div>
