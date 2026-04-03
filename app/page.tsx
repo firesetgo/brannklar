@@ -11,7 +11,7 @@ export default function HomePage() {
             alt="Brannklar logo"
             width={300}
             height={300}
-            className="h-12 w-auto sm:h-14"
+            className="h-20 w-auto sm:h-14"
             priority
           />
           <span className="text-2xl font-bold text-red-600 sm:text-3xl">
