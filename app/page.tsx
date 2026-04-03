@@ -24,22 +24,42 @@ export default function HomePage() {
           <a
             href="#hvordan"
             className="text-sm font-medium text-slate-700 hover:text-slate-900"
-          >
-            Slik fungerer det
-          </a>
+          <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6 sm:py-6">
+  <a href="#" className="flex items-center gap-3 shrink-0">
+    <Image
+      src="/logo.png"
+      alt="Brannklar logo"
+      width={64}
+      height={64}
+      className="h-12 w-auto sm:h-14"
+      priority
+    />
 
-          <a
-            href="#kontakt"
-            className="rounded-2xl border border-slate-300 px-5 py-3 text-sm font-medium hover:bg-slate-50"
-          >
-            Be om demo
-          </a>
+    <span className="text-2xl font-bold text-red-600 sm:text-3xl">
+      Brannklar
+    </span>
+  </a>
 
-          <button className="rounded-2xl border border-slate-200 px-4 py-3 text-sm">
-            🇳🇴 NO
-          </button>
-        </nav>
-      </header>
+  <nav className="hidden items-center gap-8 md:flex">
+    <a
+      href="#hvordan"
+      className="text-sm font-medium text-slate-700 hover:text-slate-900"
+    >
+      Slik fungerer det
+    </a>
+
+    <a
+      href="#kontakt"
+      className="rounded-2xl border border-slate-300 px-5 py-3 text-sm font-medium hover:bg-slate-50"
+    >
+      Be om demo
+    </a>
+
+    <button className="rounded-2xl border border-slate-200 px-4 py-3 text-sm">
+      🇳🇴 NO
+    </button>
+  </nav>
+</header>
 
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
