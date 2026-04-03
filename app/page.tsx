@@ -151,8 +151,8 @@ export default function HomePage() {
       Det anbefales at brannvernrunde av boenheter i et borettslag gjennomføres av autorisert firma med jevne mellomrom, og gjerne hvert 5. år.
     </p>
 
-    <p className="mt-4 text-slate-600">
-      Brannklar er utviklet for å gjøre den årlige egenkontrollen smidig og korrekt- mellom disse kontrollene.
+    <p className="mt-6 text-slate-600">
+      Brannklar er utviklet for å gjøre den årlige egenkontrollen smidig og korrekt- utenom disse.
     </p>
   </div>
 </section>
