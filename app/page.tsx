@@ -4,21 +4,21 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
       {/* Header */}
-      <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-  <a href="#" className="flex items-center gap-8">
-    <Image
-      src="/logo.png"
-      alt="Brannklar logo"
-      width={300}
-      height={300}
-      className="h-60 w-auto"
-      priority
-    />
+      <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+  <a href="#" className="flex items-center gap-2">
+  <Image
+    src="/logo.png"
+    alt="Brannklar logo"
+    width={200}
+    height={200}
+    className="h-10 w-auto"
+    priority
+  />
 
-    <span className="text-5xl font-bold text-red-600">
-      Brannklar
-    </span>
-  </a>
+  <span className="text-lg font-bold text-red-600">
+    Brannklar
+  </span>
+</a>
 
         <nav className="hidden items-center gap-8 md:flex">
           <a
@@ -55,7 +55,7 @@ export default function HomePage() {
             har svart.
           </p>
 
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
             <a
               href="#kontakt"
               className="rounded-2xl bg-red-600 px-8 py-4 text-white font-semibold hover:bg-red-700"
@@ -150,9 +150,12 @@ export default function HomePage() {
             løsningen?
           </p>
 
-          <p className="mt-4 text-xl font-semibold text-red-600">
+          <a
+            href="mailto:kontakt@brannklar.no"
+            className="mt-4 inline-block text-xl font-semibold text-red-600 hover:underline"
+            >
             kontakt@brannklar.no
-          </p>
+          </a>
         </div>
       </section>
     </main>
