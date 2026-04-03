@@ -40,12 +40,12 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-6 text-lg text-slate-600">
-            Brannklar gjør det enkelt for borettslag å gjennomføre egenkontroll
+            Brannklar gjør det enkelt for borettslag å gjennomføre årlig egenkontroll
             – og sikrer at den er oppdatert i tråd med dagens anbefalinger.
           </p>
 
           <p className="mt-4 text-slate-600">
-            Utviklet for å gi styret trygg dokumentasjon, når det ikke kreves
+            Utviklet for å gi styret trygg dokumentasjon, der det ikke kreves
             autorisert firma.
           </p>
 
@@ -95,10 +95,10 @@ export default function HomePage() {
 
             <div className="rounded-3xl bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold">
-                <span className="text-red-600">3.</span> Godt brannvern!
+                <span className="text-red-600">3.</span> God dokumentasjon gir grunnlag for godt brannvern!
               </h3>
               <p className="mt-3 text-slate-600">
-                Dokumentasjonen samles og er klar ved behov.
+                Dokumentasjonen er klar ved behov.
               </p>
             </div>
           </div>
