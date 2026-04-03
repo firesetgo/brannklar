@@ -11,7 +11,7 @@ export default function HomePage() {
             alt="Brannklar logo"
             width={300}
             height={300}
-            className="h-20 w-auto sm:h-20"
+            className="h-30 w-auto sm:h-30"
             priority
           />
           <span className="text-2xl font-bold text-red-600 sm:text-3xl">
@@ -145,7 +145,7 @@ export default function HomePage() {
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">Effektiv gjennomføring</h3>
               <p className="mt-3 text-slate-600">
-                Kutt kostnader og oppretthold godt brannvern.
+                Kutt kostnader, oppretthold godt brannvern.
               </p>
             </div>
           </div>
