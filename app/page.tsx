@@ -95,10 +95,10 @@ export default function HomePage() {
 
             <div className="rounded-3xl bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold">
-                <span className="text-red-600">3.</span> God dokumentasjon gir grunnlag for godt brannvern!
+                <span className="text-red-600">3.</span> Oppdaterte beboere og leiligheter!
               </h3>
               <p className="mt-3 text-slate-600">
-                Dokumentasjonen er klar ved behov.
+                Dokumentasjonen er klar ved behov for utbedring og utbytte av utstyr.
               </p>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      
+
 <section className="bg-slate-50 py-12 sm:py-16">
   <div className="mx-auto max-w-4xl px-6 text-center">
     <h2 className="text-2xl font-semibold sm:text-3xl">
