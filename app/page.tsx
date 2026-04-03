@@ -32,48 +32,49 @@ export default function HomePage() {
         </nav>
       </header>
 
-      {/* Hero */}
-      <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-3xl font-semibold sm:text-5xl leading-tight">
-            Enkel og riktig egenkontroll av brann- og elsikkerhet
-          </h1>
+     <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
+  <div className="mx-auto max-w-3xl text-center">
+    <h1 className="text-3xl font-semibold sm:text-5xl leading-tight">
+      Enkel og riktig egenkontroll av brann- og elsikkerhet
+    </h1>
 
-          <p className="mt-6 text-lg text-slate-600">
-            Brannklar gjør det enkelt for borettslag å gjennomføre årlig egenkontroll
-            – og sikrer at den er oppdatert i tråd med dagens anbefalinger.
-          </p>
+    <p className="mt-6 text-lg text-slate-600">
+      Brannklar gjør det enkelt for borettslag å gjennomføre årlig egenkontroll
+      – og sikrer at den er oppdatert i tråd med dagens anbefalinger.
+    </p>
 
-          <p className="mt-4 text-slate-600">
-            Utviklet for å gi styret trygg dokumentasjon, der det ikke kreves
-            autorisert firma.
-          </p>
+    <p className="mt-4 text-slate-600">
+      Utviklet for å gi styret trygg dokumentasjon, der det ikke kreves
+      autorisert firma.
+    </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
-            <a
-              href="#kontakt"
-              className="rounded-2xl bg-red-600 px-8 py-4 text-white font-semibold hover:bg-red-700"
-            >
-              Be om demo
-            </a>
+    <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
+      <a
+        href="#kontakt"
+        className="rounded-2xl bg-red-600 px-8 py-4 text-white font-semibold hover:bg-red-700"
+      >
+        Be om demo
+      </a>
 
-            <a
-              href="#hvordan"
-              className="rounded-2xl border px-8 py-4 font-semibold hover:bg-slate-50"
-            >
-              Slik fungerer det
-            </a>
-          </div>
-        </div>
-      </section>
+      <a
+        href="#hvordan"
+        className="rounded-2xl border px-8 py-4 font-semibold hover:bg-slate-50"
+      >
+        Slik fungerer det
+      </a>
+    </div>
 
-<p className="mt-6 text-sm text-slate-600">
-  <a
-    href="/egenkontroll-brannvern-borettslag"
-    className="text-red-600 hover:underline"
-  >
-    Les mer om egenkontroll i borettslag
-  </a>
+    <p className="mt-6 text-sm text-slate-600">
+      <a
+        href="/egenkontroll-brannvern-borettslag"
+        className="text-red-600 hover:underline"
+      >
+        Les mer om egenkontroll i borettslag
+      </a>
+    </p>
+  </div>
+</section>
+
 </p>
 
       {/* Hvordan */}
