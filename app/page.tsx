@@ -45,7 +45,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl font-semibold sm:text-6xl">
-            Egenkontroll av <br />
+            Enkel og digital egenkontroll av <br />
             brann- og elsikkerhet for borettslag
           </h1>
 
