@@ -98,7 +98,7 @@ export default function HomePage() {
                 <span className="text-red-600">3.</span> Oppdaterte beboere og leiligheter!
               </h3>
               <p className="mt-3 text-slate-600">
-                Dokumentasjonen er klar ved behov for utbedring og utbytte av utstyr.
+                Beboerne får opplæring og info om sin leilighet, og hjelp til utbedring ved behov.
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function HomePage() {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold">
-                Mindre manuelt arbeid 
+                Reduser manuelt arbeid 
               </h3>
               <p className="mt-3 text-slate-600">
                 Mindre behov for oppfølging- mer tid til andre oppgaver.
@@ -123,7 +123,7 @@ export default function HomePage() {
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold">Bedre oversikt</h3>
+              <h3 className="text-lg font-semibold">God oversikt og trygghet</h3>
               <p className="mt-3 text-slate-600">
                 Én samlet løsning for gjennomføring og dokumentasjon.
               </p>
@@ -144,15 +144,15 @@ export default function HomePage() {
 <section className="bg-slate-50 py-12 sm:py-16">
   <div className="mx-auto max-w-4xl px-6 text-center">
     <h2 className="text-2xl font-semibold sm:text-3xl">
-      Et godt supplement til autorisert kontroll
+      Et godt supplement til autorisert brannvernkontroll
     </h2>
 
     <p className="mt-6 text-lg text-slate-600">
-      Det anbefales at brannteknisk kontroll av boenheter gjennomføres av autorisert firma med jevne mellomrom.
+      Det anbefales at brannvernrunde av boenheter i et borettslag gjennomføres av autorisert firma med jevne mellomrom, og gjerne hvert 5. år.
     </p>
 
     <p className="mt-4 text-slate-600">
-      Brannklar er utviklet for å gjøre den årlige egenkontrollen enkel og korrekt – mellom disse kontrollene.
+      Brannklar er utviklet for å gjøre den årlige egenkontrollen smidig og korrekt- mellom disse kontrollene.
     </p>
   </div>
 </section>
