@@ -115,10 +115,10 @@ export default function HomePage() {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold">
-                Mindre manuelt arbeid
+                Mindre manuelt arbeid 
               </h3>
               <p className="mt-3 text-slate-600">
-                Mindre behov for oppfølging, purring og manuelle lister.
+                Mindre behov for oppfølging- mer tid til andre oppgaver.
               </p>
             </div>
 
@@ -134,12 +134,28 @@ export default function HomePage() {
                 Effektiv gjennomføring
               </h3>
               <p className="mt-3 text-slate-600">
-                Gjennomført enkelt, med mindre ressursbruk.
+                Kutt kostnader, oppretthold godt brannvern.
               </p>
             </div>
           </div>
         </div>
       </section>
+      
+<section className="bg-slate-50 py-12 sm:py-16">
+  <div className="mx-auto max-w-4xl px-6 text-center">
+    <h2 className="text-2xl font-semibold sm:text-3xl">
+      Et godt supplement til autorisert kontroll
+    </h2>
+
+    <p className="mt-6 text-lg text-slate-600">
+      Det anbefales at brannteknisk kontroll av boenheter gjennomføres av autorisert firma med jevne mellomrom.
+    </p>
+
+    <p className="mt-4 text-slate-600">
+      Brannklar er utviklet for å gjøre den årlige egenkontrollen enkel og korrekt – mellom disse kontrollene.
+    </p>
+  </div>
+</section>
 
       {/* Kontakt */}
       <section id="kontakt" className="bg-slate-50 py-12 sm:py-16">
@@ -147,7 +163,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-semibold sm:text-3xl">Kontakt</h2>
 
           <p className="mt-6 text-lg text-slate-700">
-            Vil du teste Brannklar i ditt borettslag eller høre mer om løsningen?
+            Vil du forsøke Brannklar i ditt borettslag eller høre mer om løsningen?
           </p>
 
           <a
