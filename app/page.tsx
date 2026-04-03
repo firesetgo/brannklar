@@ -7,7 +7,7 @@ export default function HomePage() {
       <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6 sm:py-6">
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="/logo.png"
+            src="public/logo.png"
             alt="Brannklar logo"
             width={64}
             height={64}
@@ -31,7 +31,7 @@ export default function HomePage() {
           </a>
         </nav>
       </header>
-
+      
      <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
   <div className="mx-auto max-w-3xl text-center">
     <h1 className="text-3xl font-semibold sm:text-5xl leading-tight">
