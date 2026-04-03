@@ -7,10 +7,10 @@ export default function HomePage() {
       <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6 sm:py-6">
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="public/logo.png"
+            src="/logo.png"
             alt="Brannklar logo"
-            width={64}
-            height={64}
+            width={300}
+            height={300}
             className="h-12 w-auto sm:h-14"
             priority
           />
@@ -20,49 +20,75 @@ export default function HomePage() {
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
-          <a href="#hvordan" className="text-sm font-medium hover:text-slate-900">
+          <a
+            href="#hvordan"
+            className="text-sm font-medium text-slate-700 hover:text-slate-900"
+          >
             Slik fungerer det
           </a>
           <a
             href="#kontakt"
-            className="rounded-2xl border px-5 py-3 text-sm font-medium hover:bg-slate-50"
+            className="rounded-2xl border border-slate-300 px-5 py-3 text-sm font-medium hover:bg-slate-50"
           >
             Be om demo
           </a>
         </nav>
       </header>
-      
-     <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
-  <div className="mx-auto max-w-3xl text-center">
-    <h1 className="text-3xl font-semibold sm:text-5xl leading-tight">
-      Enkel og riktig egenkontroll av brann- og elsikkerhet
-    </h1>
 
-    <p className="mt-6 text-lg text-slate-600">
-      Brannklar gjør det enkelt for borettslag å gjennomføre årlig egenkontroll
-      – og sikrer at den er oppdatert i tråd med dagens anbefalinger.
-    </p>
+      {/* Hero */}
+      <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <h1 className="text-3xl font-semibold leading-tight sm:text-5xl">
+            Enkel og riktig egenkontroll av brann- og elsikkerhet
+          </h1>
 
-    <p className="mt-4 text-slate-600">
-      Utviklet for å gi styret trygg dokumentasjon, der det ikke kreves
-      autorisert firma.
-    </p>
+          <p className="mt-6 text-lg text-slate-600">
+            Brannklar gjør det enkelt for borettslag å gjennomføre årlig
+            egenkontroll – og sikrer at den er oppdatert i tråd med dagens
+            anbefalinger.
+          </p>
 
-    <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
-      <a
-        href="#kontakt"
-        className="rounded-2xl bg-red-600 px-8 py-4 text-white font-semibold hover:bg-red-700"
-      >
-        Be om demo
-      </a>
+          <p className="mt-4 text-slate-600">
+            Utviklet for å gi styret trygg dokumentasjon der det ikke kreves
+            autorisert firma.
+          </p>
 
-      <a
-        href="#hvordan"
-        className="rounded-2xl border px-8 py-4 font-semibold hover:bg-slate-50"
-      >
-        Slik fungerer det
-      </a>
-    </div>
+          <p className="mt-2 text-sm text-slate-500">
+            Kan brukes årlig som supplement til periodisk kontroll utført av
+            autorisert firma.
+          </p>
+
+          <p className="mt-4 text-slate-600">
+            Vi kan også sende batteri direkte til beboerne – samtidig som
+            egenkontrollen gjennomføres.
+          </p>
+
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
+            <a
+              href="#kontakt"
+              className="rounded-2xl bg-red-600 px-8 py-4 font-semibold text-white hover:bg-red-700"
+            >
+              Be om demo
+            </a>
+
+            <a
+              href="#hvordan"
+              className="rounded-2xl border border-slate-300 px-8 py-4 font-semibold hover:bg-slate-50"
+            >
+              Slik fungerer det
+            </a>
+          </div>
+
+          <p className="mt-6 text-sm text-slate-600">
+            <a
+              href="/egenkontroll-brannvern-borettslag"
+              className="text-red-600 hover:underline"
+            >
+              Les mer om egenkontroll i borettslag
+            </a>
+          </p>
+        </div>
+      </section>
 
       {/* Hvordan */}
       <section id="hvordan" className="bg-slate-50 py-12 sm:py-16">
@@ -72,7 +98,7 @@ export default function HomePage() {
           </h2>
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
-            <div className="rounded-3xl bg-white p-6 shadow-sm">
+            <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">
                 <span className="text-red-600">1.</span> Beboer gjennomfører
               </h3>
@@ -81,7 +107,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="rounded-3xl bg-white p-6 shadow-sm">
+            <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">
                 <span className="text-red-600">2.</span> Styret får oversikt
               </h3>
@@ -90,12 +116,12 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="rounded-3xl bg-white p-6 shadow-sm">
+            <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">
-                <span className="text-red-600">3.</span> Oppdaterte beboere og leiligheter!
+                <span className="text-red-600">3.</span> Dokumentasjon lagres
               </h3>
               <p className="mt-3 text-slate-600">
-                Beboerne får opplæring og info om sin leilighet, og hjelp til utbedring ved behov.
+                Dokumentasjonen samles og er klar ved behov.
               </p>
             </div>
           </div>
@@ -110,49 +136,71 @@ export default function HomePage() {
           </h2>
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
-            <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold">
-                Reduser manuelt arbeid 
-              </h3>
+            <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+              <h3 className="text-lg font-semibold">Mindre manuelt arbeid</h3>
               <p className="mt-3 text-slate-600">
-                Mindre behov for oppfølging- mer tid til andre oppgaver.
+                Mindre behov for oppfølging, purring og manuelle lister.
               </p>
             </div>
 
-            <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold">God oversikt og trygghet</h3>
+            <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+              <h3 className="text-lg font-semibold">
+                God oversikt og trygghet
+              </h3>
               <p className="mt-3 text-slate-600">
                 Én samlet løsning for gjennomføring og dokumentasjon.
               </p>
             </div>
 
-            <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold">
-                Effektiv gjennomføring
-              </h3>
+            <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+              <h3 className="text-lg font-semibold">Effektiv gjennomføring</h3>
               <p className="mt-3 text-slate-600">
-                Kutt kostnader, oppretthold godt brannvern.
+                Gjennomfør egenkontrollen på en enkel måte, med mindre
+                ressursbruk.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-<section className="bg-slate-50 py-12 sm:py-16">
-  <div className="mx-auto max-w-4xl px-6 text-center">
-    <h2 className="text-2xl font-semibold sm:text-3xl">
-      Et godt supplement til autorisert kontroll
-    </h2>
+      {/* Batteri */}
+      <section className="bg-white py-12 sm:py-16">
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <h2 className="text-2xl font-semibold sm:text-3xl">
+            Batteri og egenkontroll – i én løsning
+          </h2>
 
-    <p className="mt-6 text-lg text-slate-600">
-      Det anbefales at brannvernrunde av boenheter i et borettslag gjennomføres av autorisert firma med jevne mellomrom, og gjerne hvert 5. år.
-    </p>
+          <p className="mt-6 text-lg text-slate-600">
+            Brannklar kan sende batteri direkte til beboerne. Samtidig
+            gjennomfører de egenkontrollen.
+          </p>
 
-    <p className="mt-6 text-slate-600">
-      Brannklar er utviklet for å gjøre den årlige egenkontrollen smidig og korrekt- utenom disse.
-    </p>
-  </div>
-</section>
+          <p className="mt-4 text-slate-600">
+            Dette gjør det enklere å sikre at batterier faktisk blir byttet –
+            og at egenkontrollen blir gjennomført.
+          </p>
+        </div>
+      </section>
+
+      {/* Autorisert kontroll */}
+      <section className="bg-slate-50 py-12 sm:py-16">
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <h2 className="text-2xl font-semibold sm:text-3xl">
+            Et godt supplement til autorisert kontroll
+          </h2>
+
+          <p className="mt-6 text-lg text-slate-600">
+            Det anbefales at brannvernrunde av boenheter i et borettslag
+            gjennomføres av autorisert firma med jevne mellomrom, og gjerne
+            hvert 5. år.
+          </p>
+
+          <p className="mt-6 text-slate-600">
+            Brannklar er utviklet for å gjøre den årlige egenkontrollen smidig
+            og korrekt mellom disse kontrollene.
+          </p>
+        </div>
+      </section>
 
       {/* Kontakt */}
       <section id="kontakt" className="bg-slate-50 py-12 sm:py-16">
@@ -160,7 +208,8 @@ export default function HomePage() {
           <h2 className="text-2xl font-semibold sm:text-3xl">Kontakt</h2>
 
           <p className="mt-6 text-lg text-slate-700">
-            Vil du forsøke Brannklar i ditt borettslag eller høre mer om løsningen?
+            Vil du teste Brannklar i ditt borettslag eller høre mer om
+            løsningen?
           </p>
 
           <a
