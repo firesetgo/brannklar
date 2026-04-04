@@ -9,6 +9,14 @@ export const metadata = {
 export default function EgenkontrollPage() {
   return (
     <main className="bg-white text-slate-900">
+        <div className="mx-auto max-w-4xl px-6 pt-6">
+        <Link
+          href="/"
+           className="text-sm text-slate-500 hover:text-red-600 transition"
+          >
+      ← Tilbake til forsiden
+         </Link>
+        </div>
       <section className="mx-auto max-w-4xl px-6 py-16 sm:py-20">
         <div className="max-w-3xl">
           <p className="text-sm font-medium text-red-600">Brannklar</p>
