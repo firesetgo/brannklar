@@ -201,6 +201,9 @@ export default function HomePage() {
             <div>
               <h4 className="text-sm font-semibold text-white">Navigasjon</h4>
               <div className="mt-3 flex flex-col gap-2 text-sm">
+                <a href="/personvern" className="hover:text-white transition">
+                   Personvern
+               </a>
                 <a href="#hvordan" className="transition hover:text-white">
                   Slik fungerer det
                 </a>
@@ -227,6 +230,7 @@ export default function HomePage() {
               >
                 kontakt@brannklar.no
               </a>
+              
             </div>
           </div>
 
