@@ -129,7 +129,7 @@ export default function HomePage() {
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">Mindre styr</h3>
               <p className="mt-3 text-slate-600">
-                En link er alt som trengs, frigjør tid til andre oppgaver.
+                Én link, ett skjema; for borettslag og sameier. Frigjør tid til andre styreoppgaver.
               </p>
             </div>
 
