@@ -70,12 +70,6 @@ export default function HomePage() {
             </a>
           </div>
           
-          <Link
-           href="/egenkontroll-brannvern-borettslag"
-           className="text-red-600 hover:underline"
-          >
-          Les mer om egenkontroll i borettslag
-        </Link>
         </div>
       </section>
 
