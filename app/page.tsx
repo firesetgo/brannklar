@@ -90,7 +90,7 @@ export default function HomePage() {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">
-                <span className="text-red-600">1.</span> Beboer gjennomfører
+                <span className="text-red-600">1.</span> Beboer utfører
               </h3>
               <p className="mt-3 text-slate-600">
                 Egenkontrollen gjennomføres enkelt på mobil eller PC.
@@ -102,7 +102,7 @@ export default function HomePage() {
                 <span className="text-red-600">2.</span> Styret får oversikt
               </h3>
               <p className="mt-3 text-slate-600">
-                Full oversikt over hvilke enheter som har gjennomført.
+                Full oversikt over hvilke enheter som har utført.
               </p>
             </div>
 
@@ -111,7 +111,7 @@ export default function HomePage() {
                 <span className="text-red-600">3.</span> Dokumentasjon og informasjon
               </h3>
               <p className="mt-3 text-slate-600">
-                Beboerne blir oppdatert på sin brannsikkerhet og dokumentasjonen er tilgjengelig ved behov.
+                Beboerne blir oppdatert på sitt brannvern og får anbefaling om evt. nødvendige tiltak.
               </p>
             </div>
           </div>
@@ -127,9 +127,9 @@ export default function HomePage() {
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
-              <h3 className="text-lg font-semibold">Reduser manuelt arbeid</h3>
+              <h3 className="text-lg font-semibold">Mindre styr</h3>
               <p className="mt-3 text-slate-600">
-                Mindre behov for oppfølging, mer tid til andre oppgaver.
+                En link er alt som trengs, frigjør tid til andre oppgaver.
               </p>
             </div>
 
@@ -138,12 +138,12 @@ export default function HomePage() {
                 God oversikt og trygghet
               </h3>
               <p className="mt-3 text-slate-600">
-                Én samlet løsning for gjennomføring og dokumentasjon.
+                Én samlet og godkjent løsning for gjennomføring og dokumentasjon.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
-              <h3 className="text-lg font-semibold">Effektiv gjennomføring</h3>
+              <h3 className="text-lg font-semibold">Kostnadseffektivt</h3>
               <p className="mt-3 text-slate-600">
                 Kutt kostnader, oppretthold godt brannvern.
               </p>
