@@ -69,6 +69,7 @@ export default function HomePage() {
               Slik fungerer det
             </a>
           </div>
+          
           <Link
            href="/egenkontroll-brannvern-borettslag"
            className="text-red-600 hover:underline"
