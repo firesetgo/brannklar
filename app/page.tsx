@@ -33,6 +33,12 @@ export default function HomePage() {
           >
             Be om demo
           </a>
+          <Link
+           href="/egenkontroll-brannvern-borettslag"
+           className="text-red-600 hover:underline"
+          >
+          Les mer om egenkontroll i borettslag
+        </Link>
         </nav>
       </header>
 
