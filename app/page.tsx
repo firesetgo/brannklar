@@ -35,12 +35,6 @@ export default function HomePage() {
           </a>
         </nav>
       </header>
-      <Link
-           href="/egenkontroll-brannvern-borettslag"
-           className="text-red-600 hover:underline"
-          >
-          Les mer om egenkontroll i borettslag
-        </Link>
 
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
@@ -74,6 +68,12 @@ export default function HomePage() {
             >
               Slik fungerer det
             </a>
+            <Link
+           href="/egenkontroll-brannvern-borettslag"
+           className="text-red-600 hover:underline"
+          >
+          Les mer om egenkontroll i borettslag
+        </Link>
           </div>
 
         </div>
