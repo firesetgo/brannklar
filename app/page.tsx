@@ -101,11 +101,10 @@ export default function HomePage() {
 
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">
-                <span className="text-red-600">3.</span> Dokumentasjon og informasjon
+                <span className="text-red-600">3.</span> Kontinuerlig dokumentasjon
               </h3>
               <p className="mt-3 text-slate-600">
-                Beboerne blir oppdatert på sitt brannvern og får anbefaling om
-                eventuelle nødvendige tiltak.
+                ..Gir grobunn for godt brannvern!  
               </p>
             </div>
           </div>
@@ -121,26 +120,25 @@ export default function HomePage() {
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
-              <h3 className="text-lg font-semibold">Mindre styr</h3>
+              <h3 className="text-lg font-semibold">Fleksibelt</h3>
               <p className="mt-3 text-slate-600">
-                Én link, ett skjema; for borettslag og sameier. Frigjør tid til
-                andre styreoppgaver.
+                 Beboerne mottar en link og gjennomgår sitt brannvern og generell brann- og elsikkerhet; på det tidspunktet som passer dem.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">
-                God oversikt og trygghet
-              </h3>
+                God oversikt og kontroll </h3>
               <p className="mt-3 text-slate-600">
-                Én samlet løsning for gjennomføring og dokumentasjon.
+                Én samlet løsning for gjennomføring og dokumentasjon. 
+                Styret kan fokusere på tiltak.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
               <h3 className="text-lg font-semibold">Kostnadseffektivt</h3>
               <p className="mt-3 text-slate-600">
-                Kutt kostnader, oppretthold godt brannvern.
+                Oppnå kontinuerlig og bedre brannsikkerhet med lavere kostnad.
               </p>
             </div>
           </div>
@@ -161,11 +159,11 @@ export default function HomePage() {
        </p>
 
         <p className="mt-4 text-slate-600">
-      Brannklar kan bidra med vurdering og utskifting av tetninger som en del av arbeidet med brannsikkerhet i bygget.
+      Brannklar kan bidra med utskifting av tetninger og nøkler som en del av arbeidet med brannsikkerhet i bygget.
        </p>
 
         <p className="mt-4 text-sm text-slate-500">
-      Dårlig tetning kan også gi lukt og trekk – men viktigst er konsekvensene for brannsikkerhet.
+      Dårlig tetning av lukene i søppelsjakten kan også gi lukt og trekk.
       </p>
 
     <a
