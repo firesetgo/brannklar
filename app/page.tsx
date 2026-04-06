@@ -4,43 +4,43 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
-      {/* Header */}
-      <header className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6 sm:py-6">
-        <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/logo.png"
-            alt="Brannklar logo"
-            width={300}
-            height={300}
-            className="h-12 w-auto sm:h-20"
-            priority
-          />
-          <span className="text-2xl font-bold text-red-600 sm:text-3xl">
-            Brannklar
-          </span>
-        </Link>
+      <header className="mx-auto max-w-6xl px-4 py-5 sm:px-6 sm:py-6">
+  <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+    
+    {/* Logo */}
+    <a href="/" className="flex items-center gap-3">
+      <Image
+        src="/logo.png"
+        alt="Brannklar logo"
+        width={300}
+        height={300}
+        className="h-12 w-auto sm:h-14"
+        priority
+      />
+      <span className="text-2xl font-bold text-red-600 sm:text-3xl">
+        Brannklar
+      </span>
+    </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
-          <a
-            href="#hvordan"
-            className="text-sm font-medium text-slate-700 hover:text-slate-900"
-          >
-            Slik fungerer det
-          </a>
-          <a
-            href="#kontakt"
-            className="rounded-2xl border border-slate-300 px-5 py-3 text-sm font-medium hover:bg-slate-50"
-          >
-            Be om demo
-          </a>
-          <a
-             href="/lovpagt-brannvern-borettslag"
-              className="rounded-2xl border border-red-300 px-5 py-3 text-sm font-medium hover:bg-slate-50"
-          >
-              Anbefalt brannvern for borettslag
-          </a>
-        </nav>
-      </header>
+    {/* Meny */}
+    <nav className="flex flex-col gap-2 text-sm sm:flex-row sm:items-center sm:gap-6">
+      <a href="#hvordan" className="hover:text-slate-900">
+        Slik fungerer det
+      </a>
+
+      <a href="#kontakt" className="hover:text-slate-900">
+        Kontakt
+      </a>
+
+      <a
+        href="/lovpagt-brannvern-borettslag"
+        className="font-medium text-red-600 hover:underline"
+      >
+        Anbefalt Brannvern
+      </a>
+    </nav>
+  </div>
+</header>
 
       {/* Hero */}
       <section className="mx-auto max-w-6xl px-6 py-12 sm:py-20">
@@ -197,6 +197,12 @@ export default function HomePage() {
             Brannklar er utviklet for å gjøre den årlige egenkontrollen smidig
             og korrekt mellom disse kontrollene.
           </p>
+          <a
+        href="/lovpagt-brannvern-borettslag"
+        className="font-medium text-red-600 hover:underline"
+      >
+        Les mer om anbefalt brannvern her
+      </a>
         </div>
       </section>
 
