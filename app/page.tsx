@@ -33,6 +33,12 @@ export default function HomePage() {
           >
             Be om demo
           </a>
+          <a
+             href="/lovpagt-brannvern-borettslag"
+              className="rounded-2xl border border-red-300 px-5 py-3 text-sm font-medium hover:bg-slate-50"
+          >
+              Anbefalt brannvern for borettslag
+          </a>
         </nav>
       </header>
 
