@@ -146,7 +146,36 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section className="bg-slate-50 py-12 sm:py-16">
+       <div className="mx-auto max-w-4xl px-6 text-center">
+         <h2 className="text-2xl font-semibold sm:text-3xl">
+                Tetninger i søppelsjakt – en skjult brannrisiko
+         </h2>
 
+        <p className="mt-6 text-lg text-slate-600">
+      Slitte eller manglende tetninger i søppelsjakt kan bidra til spredning av røyk og brann mellom etasjer.
+        </p>
+
+        <p className="mt-4 text-slate-600">
+      Dette er en kjent utfordring i mange eldre borettslag og sameier – men blir ofte ikke fulgt opp.
+       </p>
+
+        <p className="mt-4 text-slate-600">
+      Brannklar kan bidra med vurdering og utskifting av tetninger som en del av arbeidet med brannsikkerhet i bygget.
+       </p>
+
+        <p className="mt-4 text-sm text-slate-500">
+      Dårlig tetning kan også gi lukt og trekk – men viktigst er konsekvensene for brannsikkerhet.
+      </p>
+
+    <a
+      href="#kontakt"
+      className="mt-6 inline-block rounded-2xl bg-red-600 px-8 py-4 font-semibold text-white hover:bg-red-700"
+    >
+      Ta kontakt om søppelsjakt
+    </a>
+  </div>
+</section>
       {/* Autorisert kontroll */}
       <section className="bg-slate-50 py-12 sm:py-16">
         <div className="mx-auto max-w-4xl px-6 text-center">
